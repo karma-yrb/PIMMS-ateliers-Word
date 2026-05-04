@@ -1,7 +1,60 @@
 window.RELEASES_DATA = {
-  "version": "1.1.0",
-  "updatedAt": "2026-05-04T00:00:00.000Z",
+  "version": "1.2.0",
+  "updatedAt": "2026-05-04T08:13:03.612Z",
   "releases": [
+    {
+      "version": "1.2.0",
+      "tag": "v1.2.0",
+      "date": "2026-05-04",
+      "releaseType": "minor",
+      "impact": {
+        "level": "medium",
+        "rationale": "Nouvelles fonctionnalités ou changements techniques structurants."
+      },
+      "summary": "Version mineure avec nouvelles fonctionnalités et améliorations.",
+      "elements": [
+        {
+          "type": "fix",
+          "typeLabel": "Correction",
+          "scope": "release",
+          "description": "avoid prebump stdout version override",
+          "breaking": false,
+          "hash": "27bf455"
+        },
+        {
+          "type": "feat",
+          "typeLabel": "Fonctionnalité",
+          "scope": "release",
+          "description": "automate header version bump and releases page",
+          "breaking": false,
+          "hash": "e1df579"
+        },
+        {
+          "type": "chore",
+          "typeLabel": "Maintenance",
+          "scope": "",
+          "description": "trigger GitHub Pages rebuild",
+          "breaking": false,
+          "hash": "9d09923"
+        }
+      ],
+      "counts": {
+        "feat": 1,
+        "fix": 1,
+        "perf": 0,
+        "refactor": 0,
+        "docs": 0,
+        "test": 0,
+        "chore": 1,
+        "build": 0,
+        "ci": 0,
+        "style": 0,
+        "revert": 0,
+        "other": 0,
+        "breaking": 0,
+        "total": 3
+      }
+    },
     {
       "version": "1.1.0",
       "tag": "v1.1.0",
