@@ -819,7 +819,7 @@ class WordAtelierController {
     const fileName = this.#getDownloadFileName(href);
     await this.storage.setSavedExerciseDownload(this.#buildWorkFileProfileKey(), exerciseId, fileName, href);
     await this.#refreshExerciseWorkFileState(exerciseId, {
-      statusText: `Téléchargement lancé. Enregistrez ${fileName} dans votre dossier utilisateur, puis cliquez sur « Ouvrir mon fichier ».` ,
+      statusText: `Téléchargement lancé. Ouvrez le document dans Word, cliquez sur « Activer la modification », enregistrez ${fileName} dans votre dossier utilisateur, puis cliquez sur « Ouvrir mon fichier ».`,
     });
   }
 
