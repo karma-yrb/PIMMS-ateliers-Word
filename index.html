@@ -118,13 +118,8 @@
         <p id="exercise-theme-line" class="muted"></p>
       </article>
 
-      <article class="card">
-        <h2>Étapes à faire</h2>
-        <ol id="exercise-steps" class="steps-list"></ol>
-      </article>
-
-      <article class="card">
-        <h2>Fichiers et images</h2>
+      <article id="exercise-files-card" class="card">
+        <h2>Fichiers à télécharger</h2>
         <div class="asset-actions">
           <a id="exercise-docx-btn" class="btn has-icon" data-icon="⬇" target="_blank" rel="noopener">Télécharger le fichier</a>
           <a id="exercise-download-btn" class="btn has-icon" data-icon="⬇" target="_blank" rel="noopener">Télécharger le 2ᵉ fichier</a>
@@ -132,6 +127,10 @@
           <button id="exercise-open-workfile-btn" class="btn btn-soft has-icon" data-icon="↗" type="button" style="display:none;">Ouvrir mon fichier</button>
         </div>
         <p id="exercise-workfile-status" class="muted status-line"></p>
+      </article>
+
+      <article class="card">
+        <h2>Aperçu de l'exercice</h2>
         <div class="images-grid">
           <figure class="image-card">
             <figcaption id="exercise-enonce-caption">Énoncé</figcaption>
@@ -146,6 +145,11 @@
           <h3>Images illustratives</h3>
           <div id="exercise-extra-images" class="extra-images"></div>
         </div>
+      </article>
+
+      <article class="card">
+        <h2>Étapes à faire</h2>
+        <ol id="exercise-steps" class="steps-list"></ol>
       </article>
 
       <article class="card">
@@ -201,6 +205,7 @@
 
   <div id="image-modal" class="image-modal" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-label="Aperçu de l'image">
     <button id="image-modal-close" class="image-modal-close" type="button" aria-label="Fermer l'aperçu">×</button>
+    <p class="image-modal-hint">Utilisez la molette de la souris pour agrandir ou réduire l'image</p>
     <img id="image-modal-img" alt="">
   </div>
 

@@ -354,6 +354,11 @@ class WordAtelierView {
       this.exerciseDownloadBtn.removeAttribute("href");
       this.exerciseDownloadBtn.style.display = "none";
     }
+
+    const hasFiles = Boolean(vm.exercise.docxUrl || vm.exercise.downloadUrl);
+    const filesCard = document.getElementById("exercise-files-card");
+    if (filesCard) filesCard.style.display = hasFiles ? "" : "none";
+
     this.exerciseEnonceCaption.textContent = vm.exercise.imageEnonceCaption || "Énoncé";
     this.exerciseResultCaption.textContent = vm.exercise.imageResultatCaption || "Résultat attendu";
 
@@ -440,8 +445,9 @@ class WordAtelierView {
     containerEl.innerHTML = unique
       .map(
         (src, idx) => `
-        <button class="image-thumb" type="button" data-zoom-src="${escapeHtml(src)}">
+        <button class="image-thumb" type="button" data-zoom-src="${escapeHtml(src)}" title="Cliquer pour agrandir">
           <img src="${escapeHtml(src)}" alt="${escapeHtml(altPrefix)} ${idx + 1}">
+          <span class="image-thumb-hint">🔍 Cliquer pour agrandir</span>
         </button>
       `,
       )
@@ -474,8 +480,9 @@ class WordAtelierView {
     this.exerciseExtraImages.innerHTML = unique
       .map(
         (src, idx) => `
-        <button class="extra-image" type="button" data-zoom-src="${escapeHtml(src)}" title="Image ${idx + 1}">
+        <button class="extra-image" type="button" data-zoom-src="${escapeHtml(src)}" title="Cliquer pour agrandir">
           <img src="${escapeHtml(src)}" alt="Image illustrative ${idx + 1}">
+          <span class="image-thumb-hint">🔍 Cliquer pour agrandir</span>
         </button>
       `,
       )

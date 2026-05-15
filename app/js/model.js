@@ -331,7 +331,6 @@ class WordAtelierModel {
 
     const fallback = [];
     if (exercise.description) fallback.push(exercise.description);
-    if (exercise.docxUrl) fallback.push("Téléchargez le fichier de travail.");
     fallback.push("Reproduisez le document en vous aidant de l'image de l'énoncé.");
     if (exercise.imageResultat) fallback.push("Comparez votre travail avec le résultat attendu.");
     return fallback;

@@ -1209,8 +1209,10 @@ select {
   z-index: 1000;
   background: rgba(23, 29, 36, 0.82);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 12px;
   padding: 18px;
 }
 
@@ -1220,7 +1222,7 @@ select {
 
 .image-modal-stage {
   width: min(1200px, 94vw);
-  height: 90vh;
+  height: min(82vh, calc(100vh - 100px));
   overflow: auto;
   border-radius: 10px;
   display: grid;
@@ -1251,6 +1253,23 @@ select {
   font-size: 1.5rem;
   font-weight: 700;
   cursor: pointer;
+}
+
+.image-modal-hint {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.85rem;
+  margin: 0;
+  text-align: center;
+  padding: 0 8px;
+}
+
+.image-thumb-hint {
+  display: block;
+  font-size: 0.78rem;
+  color: #80735f;
+  text-align: center;
+  padding: 4px 6px 6px;
+  line-height: 1.2;
 }
 
 #user-setup-modal {
