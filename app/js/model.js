@@ -27,7 +27,10 @@ function cleanText(value) {
 
 function cleanStepText(value) {
   return String(value || "")
-    .replace(/\s+/g, " ")
+    .replace(/\r\n?/g, "\n")
+    .split("\n")
+    .map((line) => line.replace(/[ \t]+/g, " ").trim())
+    .join("\n")
     .trim();
 }
 

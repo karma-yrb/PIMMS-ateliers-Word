@@ -249,17 +249,10 @@ class WordAtelierView {
     this.exerciseToggleDoneBtn.classList.toggle("done", vm.done);
     this.exerciseToggleDoneBtn.setAttribute("data-icon", vm.done ? "\u2713" : "\u25CB");
 
-    const copyBlock = this.#extractCopyBlock(vm.steps || []);
     const paragraphOnly = this.#isParagraphOnlyExercise(vm.exercise, vm.steps || []);
     const formatStep = (step) => this.#formatStepForExercise(vm.exercise, step);
-    this.exerciseSteps.classList.remove("steps-copy-mode", "steps-paragraph-mode");
-    if (copyBlock) {
-      this.exerciseSteps.classList.add("steps-copy-mode");
-      this.exerciseSteps.innerHTML = `
-        <p class="steps-instruction">${escapeHtml(copyBlock.instruction)}</p>
-        <pre class="steps-copy-block">${escapeHtml(copyBlock.text)}</pre>
-      `;
-    } else if (paragraphOnly) {
+    this.exerciseSteps.classList.remove("steps-copy-mode", "steps-paragraph-mode", "steps-has-copy");
+    if (paragraphOnly) {
       const lines = (vm.steps || [])
         .map((line) => String(line || "").trim())
         .filter(Boolean);
@@ -269,10 +262,81 @@ class WordAtelierView {
       this.exerciseSteps.classList.add("steps-paragraph-mode");
       this.exerciseSteps.innerHTML = `<p class="steps-paragraph-text">${text}</p>`;
     } else {
-      const steps = vm.steps.length
-        ? vm.steps.map((step) => `<li>${formatStep(step)}</li>`).join("")
+      const normalizedSteps = (vm.steps || []).map((step) => String(step || "").trim()).filter(Boolean);
+      const markerPattern = /^texte\s+à\s+copier\/coller\s*:?\s*$/i;
+      const copyIntroPattern = /(texte\s+à\s+copier\/coller|copier-coller\s+(?:le|la|ce)?\s*(?:texte|liste)|copier-coller\s+ce\s+texte)/i;
+      const numberedStepPattern = /^\d+\./;
+      let hasCopyBlock = false;
+      const items = [];
+
+      for (let i = 0; i < normalizedSteps.length; i += 1) {
+        const line = normalizedSteps[i];
+        const lineParts = line.split("\n").map((part) => part.trim()).filter(Boolean);
+
+        if (copyIntroPattern.test(lineParts[0] || "") && lineParts.length > 1) {
+          hasCopyBlock = true;
+          items.push(`
+            <li class="copy-step">
+              <p class="steps-instruction">${this.#formatStepPlain(lineParts[0])}</p>
+              <pre class="steps-copy-block">${escapeHtml(lineParts.slice(1).join("\n"))}</pre>
+            </li>
+          `);
+          continue;
+        }
+
+        if (markerPattern.test(line)) {
+          const copyLines = [];
+          let j = i + 1;
+          while (j < normalizedSteps.length) {
+            const next = normalizedSteps[j];
+            if (numberedStepPattern.test(next)) break;
+            copyLines.push(next);
+            j += 1;
+          }
+
+          if (copyLines.length) {
+            hasCopyBlock = true;
+            items.push(`
+              <li class="copy-step">
+                <p class="steps-instruction">${this.#formatStepPlain(line)}</p>
+                <pre class="steps-copy-block">${escapeHtml(copyLines.join("\n"))}</pre>
+              </li>
+            `);
+            i = j - 1;
+            continue;
+          }
+        }
+
+        if (copyIntroPattern.test(line)) {
+          const copyLines = [];
+          let j = i + 1;
+          while (j < normalizedSteps.length) {
+            const next = normalizedSteps[j];
+            if (numberedStepPattern.test(next)) break;
+            copyLines.push(next);
+            j += 1;
+          }
+
+          if (copyLines.length >= 2) {
+            hasCopyBlock = true;
+            items.push(`
+              <li class="copy-step">
+                <p class="steps-instruction">${this.#formatStepPlain(line)}</p>
+                <pre class="steps-copy-block">${escapeHtml(copyLines.join("\n"))}</pre>
+              </li>
+            `);
+            i = j - 1;
+            continue;
+          }
+        }
+
+        items.push(`<li>${formatStep(line)}</li>`);
+      }
+
+      if (hasCopyBlock) this.exerciseSteps.classList.add("steps-has-copy");
+      this.exerciseSteps.innerHTML = items.length
+        ? items.join("")
         : "<li>Reproduisez le document en suivant l'énoncé.</li>";
-      this.exerciseSteps.innerHTML = steps;
     }
 
     if (vm.exercise.docxUrl) {
@@ -318,15 +382,16 @@ class WordAtelierView {
 
   #formatStep(step) {
     const text = String(step || "").replace(/^\s*\d+\s*[-.)]\s*/, "");
+    const formatMultiline = (value) => escapeHtml(value).replace(/\n/g, "<br>");
     const colonIndex = text.indexOf(":");
-    if (colonIndex <= 0) return escapeHtml(text);
+    if (colonIndex <= 0) return formatMultiline(text);
 
     const label = text.slice(0, colonIndex).trim();
-    if (!label) return escapeHtml(text);
+    if (!label) return formatMultiline(text);
 
     const rest = text.slice(colonIndex + 1).trimStart();
     if (!rest) return `<strong>${escapeHtml(label)}:</strong>`;
-    return `<strong>${escapeHtml(label)}:</strong> ${escapeHtml(rest)}`;
+    return `<strong>${escapeHtml(label)}:</strong> ${formatMultiline(rest)}`;
   }
 
   #formatStepForExercise(exercise, step) {
@@ -344,22 +409,9 @@ class WordAtelierView {
     return this.#formatStep(step);
   }
 
-  #extractCopyBlock(steps) {
-    if (!Array.isArray(steps) || steps.length < 3) return null;
-    const normalized = steps.map((line) => String(line || "").trim()).filter(Boolean);
-    if (normalized.length < 3) return null;
-
-    const markerIndex = normalized.findIndex((line) => /^texte\s+à\s+copier\/coller\s*:?\s*$/i.test(line));
-    if (markerIndex <= 0 || markerIndex >= normalized.length - 1) return null;
-
-    const instruction = normalized[0];
-    const copyLines = normalized.slice(markerIndex + 1);
-    if (!copyLines.length) return null;
-
-    return {
-      instruction,
-      text: copyLines.join("\n"),
-    };
+  #formatStepPlain(step) {
+    const text = String(step || "").replace(/^\s*\d+\s*[-.)]\s*/, "").trim();
+    return escapeHtml(text).replace(/\n/g, "<br>");
   }
 
   #isParagraphOnlyExercise(exercise, steps) {

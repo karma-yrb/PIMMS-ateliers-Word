@@ -910,6 +910,33 @@ select {
   font-size: 0.95rem;
 }
 
+.steps-list.steps-has-copy {
+  display: grid;
+  gap: 10px;
+}
+
+.steps-list.steps-has-copy li.copy-step {
+  display: list-item;
+}
+
+.steps-list.steps-has-copy .steps-instruction {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.steps-list.steps-has-copy .steps-copy-block {
+  margin: 8px 0 0;
+  border: 1px solid #d7d0c4;
+  border-radius: 8px;
+  background: #fffdf9;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.4;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 0.95rem;
+}
+
 .steps-list.steps-paragraph-mode {
   list-style: none;
   margin: 0;

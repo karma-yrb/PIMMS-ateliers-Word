@@ -1408,15 +1408,9 @@
       "description": "Consignes :",
       "consignes": [],
       "instructions": [
-        "Ouvrez Microsoft Word : cliquez sur le bouton Demarrer, recherchez \"Word\", puis ouvrez l'application. Ensuite, cliquez sur \"Document vierge\" pour creer un nouveau document.",
-        "Copier-coller la liste dans votre traitement de texte :",
-        "Differents fournisseurs d'accès",
-        "Free,",
-        "Orange,",
-        "Nordnet,",
-        "Oleane,",
-        "Neuf.",
-        "Insérez des puces dans un document Word en les personnalisant avec un caractère spécial \"ordinateur\"."
+        "1. Ouvrez Microsoft Word: cliquez sur le bouton Demarrer, recherchez \"Word\", puis ouvrez l'application. Ensuite, cliquez sur \"Document vierge\" pour creer un nouveau document.",
+        "2. Copier-coller le texte suivant: \nDifferents fournisseurs d'accès : \n- Free, \n- Orange, \n- Nordnet, \n- Oleane, \n- Neuf.",
+        "3. Insérez des puces en les personnalisant avec un caractère spécial \"ordinateur\"."
       ],
       "scrape": {
         "ok": true,
