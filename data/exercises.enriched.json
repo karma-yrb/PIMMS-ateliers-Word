@@ -422,7 +422,6 @@
       "description": "Comme dans l'exemple ci-dessous sous, vous créez un dossier \"Europe\" sur le bureau, puis un sous dossier \"france\" à l'intérieur. Dans le dossier France, vous enregistrez un document Word au trois formats présentés",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Comme dans l'exemple ci-dessous sous, vous créez un dossier \"Europe\" sur le bureau, puis.",
         "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -494,7 +493,6 @@
       "description": "Saisir cette liste à l'identique sur Word. Police \"Calibri\". Les deux séries sont des images que vous pouvez glisser sur votre ordinateur ou votre document de travail pour pouvoir travailler confortablement. Vous pouvez aussi imprimer les deux images via le clic-droit de votre souris.",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Saisir cette liste à l'identique sur Word. Police \"Calibri\". Les deux séries sont des.",
         "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -536,7 +534,6 @@
         "Appliquez les polices \"Arial Black\", \"Bookman Old Style\", \"Wingdings\", \"Eras Demi ITC\" et \"Lucida Handwriting\" sur chacun des 5 paragraphes créés."
       ],
       "instructions": [
-        "Téléchargez le document de travail ci-contre",
         "Après sélection, copiez-collez 5 fois le même paragraphe",
         "Appliquez les polices \"Arial Black\", \"Bookman Old Style\", \"Wingdings\", \"Eras Demi ITC\" et \"Lucida Handwriting\" sur chacun des 5 paragraphes créés."
       ],
@@ -576,7 +573,6 @@
         "Mettez les questions en gras et rouge et les réponses en vert."
       ],
       "instructions": [
-        "Téléchargez le document de travail.",
         "Mettez les questions en gras et rouge et les réponses en vert."
       ],
       "scrape": {
@@ -922,7 +918,7 @@
       "description": "Téléchargez le texte de l'exercice ci-contre, Vous travaillez dans le bloc \"Paragraphe\" pour la bordure et le groupe \"Police\" pour les attributs de l'écriture",
       "consignes": [],
       "instructions": [
-        "Téléchargez le texte de l'exercice ci-contre, Vous travaillez dans le bloc \"Paragraphe\" pour la bordure et le groupe \"Police\" pour les attributs de l'écriture",
+        "Vous travaillez dans le bloc \"Paragraphe\" pour la bordure et le groupe \"Police\" pour les attributs de l'écriture",
         "- Utiliser une police épaisse (\"Arial Rounded MT Bold\", 24).",
         "- Utiliser la totalité de la page.",
         "- Bordure 0,5pt, ombre avec distance au choix appliqué au paragraphe."
@@ -1051,7 +1047,6 @@
         "- Paragraphe 7 : Retrait gauche +5cm Retrait droit +5cm, Interligne fixe 1cm, Alignement centré"
       ],
       "instructions": [
-        "Téléchargez le fichier de travail",
         "Vous travaillez dans le bloc \"paragraphe\" en respectant les consignes ci-dessous",
         "- Titre : Alignement centré, Gras, Police \"Trebuchet MS\", 18",
         "- Paragraphe 1 : Retrait gauche +1,5cm, Retrait droit +0,5cm +1cm, \"Police Tempus Sans ITC\", 12",
@@ -1102,8 +1097,6 @@
         "- Saut de page entre les passereaux et les aigles"
       ],
       "instructions": [
-        "Téléchargez les images",
-        "Téléchargez le fichier de travail",
         "Vous travaillez dans le bloc \"Paragraphe\" et insertion image",
         "Consignes :",
         "- La ligne de chaque nom d'oiseau est en fond de couleur et à travailler dans le bloc \"paragraphe\", la reproduction de mis en forme (pinceau) vous permettra de répéter l'opération rapidement.",
@@ -1374,7 +1367,6 @@
         "Triez la liste de façon à ce que les éléments soient classés par ordre alphabétique. La fonction se trouve dans le groupe \"paragraphe\"."
       ],
       "instructions": [
-        "Téléchargez le fichier de travail.",
         "Triez la liste de façon à ce que les éléments soient classés par ordre alphabétique. La fonction se trouve dans le groupe \"paragraphe\"."
       ],
       "scrape": {
@@ -1899,7 +1891,6 @@
       "description": "1- Téléchargez le fichier de travail ci-contre",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : 1- Téléchargez le fichier de travail ci-contre.",
         "Ajoutez les formes via Insertion > Formes puis harmonisez style, taille et alignement.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -2078,7 +2069,6 @@
       "description": "Téléchargez les photos utiles à l'exercice.",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez les photos utiles à l'exercice..",
         "Ajoutez les formes via Insertion > Formes puis harmonisez style, taille et alignement.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -2213,7 +2203,6 @@
       "description": "Téléchargez le fichier ici",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier ici.",
         "Vous travaillez avec la fonction \"Aligner\" du bloc \"Organiser\" (dépend de votre version de logiciel) pour obtenir AUTOMATIQUEMENT le résultat ci-dessous :"
       ],
       "imageEnonceCaption": "Comment faire pour aligner les formes ?",
@@ -2353,7 +2342,6 @@
       "description": "Téléchargez le fichier de travail",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez le fichier de travail.",
         "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -2530,7 +2518,6 @@
       "description": "Téléchargez le fichier de travail",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez le fichier de travail.",
         "Inserez les sauts via Mise en page > Sauts puis vérifiez la structure du document.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -2567,7 +2554,6 @@
       "description": "Téléchargez le fichier de travail",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez le fichier de travail.",
         "Inserez les sauts via Mise en page > Sauts puis vérifiez la structure du document.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -3354,7 +3340,6 @@
       "description": "Fiche d'adhésion avec 5 tableaux (ou 4 possibles en \"invisibilisant\" certaines bordures dans le troisième) de différentes tailles à créer. Téléchargez le fichier de travail et suivez l'exemple ci-dessous. Les textes hors tableau sont déjà sur votre fichier de travail. Pour cet exercice, il est conseillé d'imprimer l'image ou mieux de l'avoir sur la droite de son écran pour mieux le copier.",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Fiche d'adhésion avec 5 tableaux (ou 4 possibles en \"invisibilisant\" certaines bordures.",
         "Créez ou ajustez le tableau via Insertion > Tableau puis appliquez fusion, bordures et alignements.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -3493,7 +3478,6 @@
       "description": "Même principe que l'exercice précédent texte vertical sur la première ligne et alternance de couleur dans les colonnes. Si possible distribuer la couleur sur les 5 colonnes en une fois. \"Selection multiple des colonnes \"",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Même principe que l'exercice précédent texte vertical sur la première ligne et alternance.",
         "Ajoutez les formes via Insertion > Formes puis harmonisez style, taille et alignement.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -3895,7 +3879,6 @@
       "description": "Téléchargez le document Word",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez le document Word.",
         "Créez ou ajustez le tableau via Insertion > Tableau puis appliquez fusion, bordures et alignements.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -3932,7 +3915,6 @@
       "description": "Téléchargez le document Word",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez le document Word.",
         "Créez ou ajustez le tableau via Insertion > Tableau puis appliquez fusion, bordures et alignements.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -4218,7 +4200,6 @@
       "description": "Téléchargez le document de travail",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez le document de travail.",
         "Utilisez Accueil > Remplacer pour automatiser les corrections demandees.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -4257,7 +4238,6 @@
       "description": "Téléchargez le fichier de travail ici",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez le fichier de travail ici.",
         "Utilisez Accueil > Remplacer pour automatiser les corrections demandees.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -4473,7 +4453,6 @@
       "description": "Téléchargez le fichier de travail ici",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez le fichier de travail ici.",
         "Utilisez Accueil > Remplacer pour automatiser les corrections demandees.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -4544,7 +4523,6 @@
       "description": "Téléchargez l'image ici",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez l'image ici.",
         "Appliquez les réglages de l'onglet Mise en page (marges, orientation, fond, bordures).",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -4615,7 +4593,6 @@
       "description": "Téléchargez votre fichier de travail ici",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez votre fichier de travail ici.",
         "Appliquez les réglages de l'onglet Mise en page (marges, orientation, fond, bordures).",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -4652,7 +4629,6 @@
       "description": "Téléchargez votre fichier de travail ici",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez votre fichier de travail ici.",
         "Appliquez les réglages de l'onglet Mise en page (marges, orientation, fond, bordures).",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -4689,7 +4665,6 @@
       "description": "Téléchargez votre fichier de travail ici",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez votre fichier de travail ici.",
         "Appliquez les réglages de l'onglet Mise en page (marges, orientation, fond, bordures).",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -4803,7 +4778,6 @@
       "description": "Télécharger le document de travail",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Télécharger le document de travail.",
         "Ajustez les options de l'onglet Affichage (zoom, volets, fenêtres) selon l'exemple.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -4840,7 +4814,6 @@
       "description": "Télécharger le document de travail",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Télécharger le document de travail.",
         "Ajustez les options de l'onglet Affichage (zoom, volets, fenêtres) selon l'exemple.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -4980,7 +4953,6 @@
       "description": "Vous ouvrez plusieurs documents Word et utilisez la fonction \"changer de fenêtre\" comme ci-dessous.",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Vous ouvrez plusieurs documents Word et utilisez la fonction \"changer de fenêtre\" comme.",
         "Ajustez les options de l'onglet Affichage (zoom, volets, fenêtres) selon l'exemple.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -5017,7 +4989,6 @@
       "description": "Dans le menu Insertion-->smart Art, vous trouvez le groupe \"processus\", et faites une présentation identique au résultat attendu ci-dessous.",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Dans le menu Insertion-->smart Art, vous trouvez le groupe \"processus\", et faites une.",
         "Inserez un SmartArt via Insertion > SmartArt puis ajustez les blocs.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -5088,7 +5059,6 @@
       "description": "Téléchargez les visuels",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez les visuels.",
         "Inserez un SmartArt via Insertion > SmartArt puis ajustez les blocs.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -5195,7 +5165,6 @@
       "description": "Téléchargez votre fichier de travail ici",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez votre fichier de travail ici.",
         "Inserez un SmartArt via Insertion > SmartArt puis ajustez les blocs.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -5698,7 +5667,6 @@
       "description": "Télécharger ci-contre les données et la lettre type",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Télécharger ci-contre les données et la lettre type.",
         "Configurez les etapes de l'onglet Publipostage (source, champs, apercu) jusqu'au rendu attendu.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -5808,7 +5776,6 @@
       "description": "Téléchargez votre document de travail ci-contre",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez votre document de travail ci-contre.",
         "Configurez les etapes de l'onglet Publipostage (source, champs, apercu) jusqu'au rendu attendu.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -5878,7 +5845,6 @@
       "description": "Téléchargez ci-contre vos fichiers de travailL'objectif de l'exercice est de créer un publipostage. La difficulté de l'exercice provient du format de date Excel qui ne sera pas importé comme demandé par défaut. Il faut donc modifier le code champs. Le format des dates sera obligatoirement du type : 1er octobre 2020 .",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Téléchargez ci-contre vos fichiers de travailL'objectif de l'exercice est de créer un.",
         "Configurez les etapes de l'onglet Publipostage (source, champs, apercu) jusqu'au rendu attendu.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -6006,7 +5972,6 @@
       "description": "Vous téléchargez votre fichier de travail ici.",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Vous téléchargez votre fichier de travail ici..",
         "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -6646,7 +6611,6 @@
       "description": "L'objectif est de convertir du texte en tableau. Dans cet exercice, vous travaillez sur la liste des pays d'Europe et leurs capitales.",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : L'objectif est de convertir du texte en tableau. Dans cet exercice, vous travaillez sur.",
         "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",
@@ -8170,7 +8134,6 @@
       "description": "Zones de texte sur la grille",
       "consignes": [],
       "instructions": [
-        "Téléchargez le fichier de travail puis ouvrez-le dans Word.",
         "Construisez la structure principale du document à partir de cet objectif : Zones de texte sur la grille.",
         "Appliquez les réglages Word utiles (Accueil, Insertion, Mise en page) pour obtenir le rendu attendu.",
         "Comparez votre document avec l'image de résultat attendu puis corrigez les écarts.",

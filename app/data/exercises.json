@@ -475,7 +475,6 @@
         "Mettez les questions en gras et rouge et les réponses en vert."
       ],
       "instructions": [
-        "Téléchargez le document de travail.",
         "Mettez les questions en gras et rouge et les réponses en vert."
       ]
     },
@@ -801,7 +800,6 @@
         "- Paragraphe 7 : Retrait gauche +5cm Retrait droit +5cm, Interligne fixe 1cm, Alignement centré"
       ],
       "instructions": [
-        "Téléchargez le fichier de travail",
         "Vous travaillez dans le bloc \"paragraphe\" en respectant les consignes ci-dessous",
         "- Titre : Alignement centré, Gras, Police \"Trebuchet MS\", 18",
         "- Paragraphe 1 : Retrait gauche +1,5cm, Retrait droit +0,5cm +1cm, \"Police Tempus Sans ITC\", 12",
@@ -840,8 +838,6 @@
         "- Saut de page entre les passereaux et les aigles"
       ],
       "instructions": [
-        "Téléchargez les images",
-        "Téléchargez le fichier de travail",
         "Vous travaillez dans le bloc \"Paragraphe\" et insertion image",
         "Consignes :",
         "- La ligne de chaque nom d'oiseau est en fond de couleur et à travailler dans le bloc \"paragraphe\", la reproduction de mis en forme (pinceau) vous permettra de répéter l'opération rapidement.",
@@ -1036,7 +1032,6 @@
         "Triez la liste de façon à ce que les éléments soient classés par ordre alphabétique. La fonction se trouve dans le groupe \"paragraphe\"."
       ],
       "instructions": [
-        "Téléchargez le fichier de travail.",
         "Triez la liste de façon à ce que les éléments soient classés par ordre alphabétique. La fonction se trouve dans le groupe \"paragraphe\"."
       ]
     },
